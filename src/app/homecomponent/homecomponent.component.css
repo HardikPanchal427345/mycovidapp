@@ -1,0 +1,479 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.upcards {
+    margin-top: -150px !important;
+    z-index: top;
+}
+
+.cards {
+    margin-top: 50px !important;
+    /* z-index: top; */
+}
+
+.mydiv {
+    z-index: -1;
+    height: 660px;
+    width: 100%;
+    /* clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0); */
+    clip-path: polygon(0 75%, 27% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0);
+    background-color: rgba(108, 154, 247, 0.774);
+}
+
+.onindiv {
+    height: 660px;
+    width: 100%;
+    clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0);
+    /* clip-path: polygon(0 75%, 20% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+    background-color: rgb(34, 85, 187);
+}
+
+.indiv {
+    padding-top: 110px;
+    height: 660px;
+    width: 100%;
+    clip-path: polygon(0 75%, 25% 86%, 50% 77%, 77% 86%, 100% 78%, 100% 0%, 0 0);
+    /* background-color: gra */
+    background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+}
+
+.info {
+    width: 50%;
+    position: relative;
+    /* left: 0;
+     */
+    float: left;
+}
+
+.info>h5 {
+    background-color: rgb(32, 129, 224);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+
+.info>h3 {
+    color: #f9f9f9;
+    font-size: 46px;
+}
+
+.pic {
+    width: 50%;
+    position: relative;
+    /* right: 0; */
+    float: right;
+    text-align: center;
+}
+
+.lungs {
+    width: 70%;
+}
+
+.lm {
+    width: auto;
+    background: transparent;
+    border: 2px solid rgb(245, 124, 120);
+    color: rgb(245, 124, 120);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.lm:hover {
+    background: rgb(245, 124, 120);
+    color: #ffffff;
+}
+
+.info p {
+    color: #f9f9f975;
+}
+
+.about {
+    text-align: center;
+}
+
+.imgdivdiv {
+    text-align: center;
+}
+
+.imgdiv {
+    background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 30px 10px 30px;
+    border-radius: 30px;
+}
+
+.aboutimg {
+    width: 100%;
+}
+
+.corona {
+    color: rgb(245, 124, 120);
+}
+
+.parent,
+.parent div,
+.parent div:before {
+    width: 423px;
+    height: 90px;
+    position: absolute;
+}
+
+.parent {
+    right: 0;
+    background-image: linear-gradient(to right, transparent 210px, #b0102d 210px);
+    margin-top: 15vh;
+}
+
+.parent div {
+    clip-path: polygon(100% 0%, 100% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.parent div:before {
+    content: "";
+    background-color: #b0102d;
+    clip-path: ellipse(200px 45px at 210px);
+}
+
+.par {
+    color: #ffffff !important;
+    margin: 0 auto;
+    margin-top: -150px;
+    padding-top: 350px;
+    /* width: 100vw; */
+    height: 160vh;
+    /* padding: 0; */
+    background-image: url(../../assets/bckg.png);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-position: 0px 0px !important;
+    /* border: 5px solid black; */
+}
+
+.spreadcard {
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    height: 300px;
+    /* width: 100px; */
+    margin: 10px;
+    text-align: center;
+    background: transparent;
+    padding-top: 20px;
+    border: 2px solid lightblue;
+}
+
+.symptcard {
+    /* margin-top: 10px; */
+    margin: 5px 10px;
+    border-radius: 10px;
+    height: 150px;
+    background-color: rgba(145, 181, 253, 0.281);
+}
+
+.symptcard .row {
+    height: auto;
+}
+
+.symptcard img {
+    /* margin: 10px; */
+    border-radius: 10px;
+    padding: 15px;
+    height: 150px;
+    background-color: rgb(32, 129, 224);
+}
+
+.symptinfo h5 {
+    margin-top: 20px;
+}
+
+.symptinfo p {
+    font-size: 14px;
+}
+
+.prev {
+    color: #ffffff !important;
+    padding: 0;
+    margin-top: 100px;
+    height: auto;
+    /* width: 100vw; */
+    background-color: lightblue;
+    clip-path: polygon(0 100%, 100% 100%, 100% 1%, 79% 6%, 54% 0%, 28% 7%, 0% 0%);
+}
+
+.previn {
+    clip-path: polygon(0 100%, 100% 100%, 100% 1%, 79% 10%, 54% 0%, 28% 10%, 0% 0%);
+    padding: 0 20vw;
+    padding-top: 100px;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background: rgb(32, 129, 224);
+    padding-bottom: 0 !important;
+}
+
+.girl {
+    padding: 0;
+    /* margin-bottom: -10px !important; */
+    background-image: url(../../assets/Rectangle.png);
+    background-size: 300px;
+    background-position: 50px 100px !important;
+    background-repeat: no-repeat;
+}
+
+.docs {
+    color: #ffffff !important;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    outline: none;
+    clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0);
+    background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+}
+
+.top-left {
+    position: absolute;
+    top: 28px;
+    left: 36px;
+}
+
+.doccard {
+    height: 250px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+    border-radius: 20px;
+}
+
+.doccard img {
+    /* z-index: -10 !important; */
+    /* height: 250px; */
+    width: 80%;
+    /* size: 100px; */
+    float: right;
+    /* background: rosybrown; */
+    margin-top: 45px;
+    /* margin-bottom: -1px !important; */
+}
+
+.docinfo {
+    float: left;
+    /* z-index: 10; */
+    /* margin-top: -50px; */
+}
+
+.doccards {
+    padding: 0 10vw;
+}
+
+.top-left h5 {
+    color: rgb(245, 124, 120);
+    font-size: 16px;
+}
+
+.top-left h6 {
+    color: rgb(32, 129, 224);
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.appo {
+    background-color: rgb(245, 124, 120);
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* margin-right: 50px; */
+    border: 2px solid rgb(248, 171, 168);
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        width: 100% !important;
+    }
+    .info {
+        width: 50% !important;
+    }
+    .info>h5 {
+        padding: 5px 10px;
+        border-radius: 50px;
+        color: #f1f1f1;
+        font-size: 12px;
+    }
+    .info>h3 {
+        color: #f9f9f9;
+        font-size: 26px;
+    }
+    .info>p {
+        font-size: 12px;
+    }
+    .spreadcardgroup {
+        padding: 0 50px !important;
+    }
+    .spreadcard {
+        background-color: blanchedalmond;
+        border-radius: 20px;
+        height: 300px;
+        /* width: 50px; */
+        margin: 10px 5px;
+        text-align: center;
+        background: transparent;
+        padding: 0 5px;
+        padding-top: 20px;
+        border: 2px solid lightblue;
+    }
+    .par {
+        color: #ffffff !important;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-top: 50px;
+        /* background: ; */
+        background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+        /* width: 100vw; */
+        height: auto;
+        /* padding: 0; */
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
+        background-position: 0px 0px !important;
+        /* border: 5px solid black; */
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    h1,
+    H2 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .lm {
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        outline: none;
+    }
+    .info {
+        width: 100% !important;
+    }
+    .pic {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 100% !important;
+    }
+    .mydiv {
+        z-index: -1;
+        height: 800px;
+        width: 100%;
+        clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0);
+        /* clip-path: polygon(0 75%, 27% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+        background-color: rgba(108, 154, 247, 0.774);
+    }
+    .onindiv {
+        height: 800px;
+        width: 100%;
+        clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0);
+        /* clip-path: polygon(0 75%, 20% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+        background-color: rgb(34, 85, 187);
+    }
+    .indiv {
+        padding-top: 110px;
+        height: 800px;
+        width: 100%;
+        clip-path: polygon(0 75%, 25% 86%, 50% 77%, 77% 86%, 100% 78%, 100% 0%, 0 0);
+        /* background-color: gra */
+        background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+    }
+    #aboutcorona {
+        margin-top: 0 !important;
+    }
+    .coronainfo {
+        text-align: center;
+    }
+    .par {
+        color: #ffffff !important;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-top: 50px;
+        /* background: ; */
+        background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+        /* width: 100vw; */
+        height: auto;
+        /* padding: 0; */
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
+        background-position: 0px 0px !important;
+        /* border: 5px solid black; */
+    }
+    .spreadcardgroup {
+        padding: 0 10px;
+    }
+    .symptinfo h5 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .symptinfo p {
+        font-size: 12px;
+    }
+    .previn {
+        padding-top: 150px;
+    }
+    .girl {
+        padding: 0;
+        margin-left: -100px !important;
+    }
+    #stat.mydiv {
+        z-index: -1;
+        height: auto;
+        width: 100%;
+        /* clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0); */
+        /* clip-path: polygon(0 75%, 27% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+        background-color: rgba(108, 154, 247, 0.774);
+    }
+    #stat.mydiv .onindiv {
+        height: auto;
+        width: 100%;
+        /* clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0); */
+        /* clip-path: polygon(0 75%, 20% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+        background-color: rgb(34, 85, 187);
+    }
+    #stat.mydiv .indiv {
+        padding-bottom: 280px;
+        padding-top: 10px;
+        height: auto;
+        width: 100%;
+        /* clip-path: polygon(0 75%, 25% 86%, 50% 77%, 77% 86%, 100% 78%, 100% 0%, 0 0); */
+        /* background-color: gra */
+        background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+    }
+    #chart {
+        margin-top: -250px !important;
+        position: relative;
+        z-index: -100;
+    }
+    .docs {
+        color: #ffffff !important;
+        padding-top: 60px;
+        margin-top: -200px;
+        padding-bottom: 50px;
+        outline: none;
+        clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0% 0%);
+        background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+    }
+    .doccard {
+        margin-top: 20px;
+        /* padding-top: 20px; */
+    }
+    .top-left {
+        margin-top: 20px;
+    }
+    #lastappo {
+        text-align: center;
+        padding-top: 50px !important;
+    }
+}

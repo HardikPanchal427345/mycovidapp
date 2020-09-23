@@ -1,0 +1,108 @@
+header {
+    background: #CCC;
+    padding: 2em;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #0439a0, #2081e0);
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+}
+
+.skewed-bg {
+    background: #830024;
+    color: #FFF;
+    padding: 2em;
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.skewed-bg::after {
+    content: '';
+    position: absolute;
+    bottom: -75%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: #FFF;
+    transform: skew(0deg, -9deg);
+}
+
+.mydiv {
+    height: 500px;
+    width: 100%;
+    /* clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0); */
+    clip-path: polygon(0 75%, 27% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0);
+    background-color: rgb(252, 213, 141);
+}
+
+.onindiv {
+    height: 500px;
+    width: 100%;
+    clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0);
+    /* clip-path: polygon(0 75%, 20% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+    background-color: rgb(255, 189, 66);
+}
+
+.indiv {
+    height: 500px;
+    width: 100%;
+    clip-path: polygon(0 75%, 25% 86%, 50% 77%, 77% 86%, 100% 78%, 100% 0%, 0 0);
+    background-color: orange;
+}
+
+.appo {
+    background-color: rgb(245, 124, 120);
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 50px;
+    border: 2px solid rgb(248, 171, 168);
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.corona {
+    margin-left: 5px;
+    color: rgb(245, 124, 120);
+    font-weight: 700;
+}
+
+.go {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.rights {
+    text-align: center;
+    line-height: 20px;
+    background: rgb(32, 129, 224);
+    /* position: fixed; */
+    margin-bottom: 0px !important;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    width: 80vw;
+    color: white;
+    line-height: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 100vw !important;
+    }
+}

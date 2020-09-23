@@ -1,0 +1,39 @@
+.mydiv {
+    z-index: -1;
+    height: 600px;
+    width: 100%;
+    /* clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0); */
+    clip-path: polygon(0 75%, 27% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0);
+    background-color: rgba(108, 154, 247, 0.774);
+}
+
+.onindiv {
+    height: 600px;
+    width: 100%;
+    clip-path: polygon(0 75%, 25% 89%, 50% 77%, 77% 88%, 100% 78%, 100% 0%, 0 0);
+    /* clip-path: polygon(0 75%, 20% 93%, 50% 77%, 76% 95%, 100% 78%, 100% 0%, 0 0); */
+    background-color: rgb(34, 85, 187);
+}
+
+.indiv {
+    padding-top: 50px;
+    height: 600px;
+    width: 100%;
+    clip-path: polygon(0 75%, 25% 86%, 50% 77%, 77% 86%, 100% 78%, 100% 0%, 0 0);
+    /* background-color: gra */
+    background-image: linear-gradient(to right, rgb(4, 57, 160), rgb(32, 129, 224));
+}
+
+.about {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    color: White;
+}
+
+.corona {
+    color: rgb(245, 124, 120);
+}
+
+.cards {
+    margin-top: 50px;
+}

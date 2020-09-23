@@ -1,0 +1,31 @@
+.card {
+    background-color: #ffffff;
+    /* margin-right: 1px; */
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 50px 0px rgb(4, 57, 160);
+}
+
+.card .label {
+    color: rgb(4, 57, 160);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ui {
+    padding: 20px;
+    text-align: center;
+}
+
+.value {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 425px) {
+    .ui {
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
